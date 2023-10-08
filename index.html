@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hello Practice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .Subcribe {
+            background-color: rgb(200, 0, 0);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 105px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transform-origin: opacity 0.1s;
+        }
+
+        .Subcribe:hover {
+            opacity: 0.8;
+        }
+
+        .Subcribe.active {
+            opacity: 0.5;
+        }
+
+        .Join {
+            background-color: white;
+            color: Blue;
+            border-color: rgb(57, 57, 253);
+            height: 36px;
+            width: 66px;
+            border-radius: 3px;
+            border-style: solid;
+            border-width: 1px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: backgroud-color 0.15s, color 0.15s;
+
+        }
+
+        .Join:hover{
+            background-color: rgb(57, 57, 253);
+            color: white;
+        }
+
+        .Join:active{
+            opacity: 0.8;
+        }
+
+        .Tweet {
+            background-color: rgb(2, 158, 255);
+            color: white;
+            height: 36px;
+            width: 70px;
+            border-style: none;
+            border-radius: 18px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: box-shadow 0.15s;
+        }
+
+        .Tweet:hover{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+        }
+
+    </style>
+    <button class="Subcribe">SUBSCRIBE</button>
+    <button class="Join">JOIN</button>
+    <button class="Tweet">Tweet</button>
+</body>
+
+</html>

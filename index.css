@@ -1,0 +1,15 @@
+#center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+
+/* sabse phele ye pata karo ke mouse rectangle par aaya and move hua ya nahi*/
+
+/* ab ye calculate karo ke hum center se left par hai ya cnter se right par hai */
+/* how far from left, change colour in that level of intensity */
