@@ -1,0 +1,75 @@
+form {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input, select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: box-shadow 0.15s;
+  }
+
+  input:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3)
+  }
+
+  input[type=checkbox] {
+    width: 14px;
+  }
+
+  input[type=submit] {
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, background-color 0.15s;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(6, 6, 87);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  } 
+
+  input[type=submit]:active {
+    background-color: gray;
+  }
+
+  span {
+    color: red;
+    font-weight: bold;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+    width: auto;
+  }
+
+  table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid gray;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+  }
+
+  th {
+    background-color: white;
+    border-collapse: collapse;
+  }
+
+
