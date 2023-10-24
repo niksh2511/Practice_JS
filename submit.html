@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Character Count</title>
+  <script type="text/javascript">
+    function countCharacters() {
+      var name = document.getElementById("name").value;
+      var charCount = {};
+
+      for (var i = 0; i < name.length; i++) {
+        var char = name.charAt(i);
+        if (charCount[char]) {
+          charCount[char]++;
+        } else {
+          charCount[char] = 1;
+        }
+      }
+
+      var output = "";
+      for (var char in charCount) {
+        output += char + " - " + charCount[char] + "<br>";
+      }
+
+      document.getElementById("result").innerHTML = output;
+    }
+  </script>
+</head>
+
+<body>
+  <form>
+    Name: <input type="text" id="name" required><br>
+    <input type="button" value="Submit" onclick="countCharacters()">
+  </form>
+  <div id="result"></div>
+</body>
+
+</html>
