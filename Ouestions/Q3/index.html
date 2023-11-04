@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment System</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <!-- Doctor Dropdown -->
+        <label for="doctor-details">Select Doctor:</label>
+        <select id="doctor-details"></select>
+        <br><br>
+        <!-- Patient Dropdown -->
+        <label for="patient-details">Select Patient:</label>
+        <select id="patient-details"></select>
+        <br><br>
+        <!-- Date of Appointment -->
+        <label for="date-of-appointment">Date of Appointment:</label>
+        <input type="date" id="date-of-appointment">
+        <br><br>
+        <!-- Submit Button -->
+        <button id="submit" onclick="handleSubmit(event)">Submit</button>
+
+        <!-- Error Message -->
+        <div id="NameRequired" style="color: red;"></div>
+        <div id="DateRequired" style="color: red;"></div>
+    </form>
+    <!-- Appointment List Table -->
+    <h2>Appointment List</h2>
+    <table id="appointment-list">
+        <tr>
+            <th>TreatmentID</th>
+            <th>DoctorID</th>
+            <th>DoctorName</th>
+            <th>PatientID</th>
+            <th>PatientName</th>
+            <th>DateofAppointment</th>
+        </tr>
+    </table>
+
+   <script src="main.js"></script>
+</body>
+
+</html>
