@@ -1,0 +1,76 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 164, 28);
+  color: white;
+}
+
+.header {
+  height: 20%;
+  background: darkblue;
+  color: yellow;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+ display: inline-block;
+ box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+ width: 400px;
+ height: 300px;
+ padding: 10PX;
+ margin-top: 15px;
+ margin-right: 15px;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #B12704;
+}
+
+.availability {
+  color: #008000;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+  background-color: rgb(249, 217, 76);
+  border: none;
+  height: 40px;
+  width: 350px;
+  border-radius: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-top: 20px;
+}
+
+.add-to-cart-button:active {
+  opacity: 0.5;
+}
+
+.text {
+  font-weight: bold;
+  font-size: large;
+}
+
+#input {
+  width: 7%;
+  border: none; 
+}
